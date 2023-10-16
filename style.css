@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:dodgerblue ;
+    
+}
+h1{
+    color: #FAB201;
+    -webkit-text-stroke: 5px white;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Fredoka',sans-serif;
+}
+
+#foot{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,90px);
+    grid-template-rows: repeat(3,90px);
+    margin: 50px;
+}
